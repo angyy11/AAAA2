@@ -1,0 +1,45 @@
+<resources>
+    <!--Now Showing & Popular-->
+    <string name="app_name">AAAA</string>
+    <string name="toast_message">Hello!!!!</string>
+    <string name="my_hero_academia">MY Hero\nAcademia:\nHeros Rising</string>
+    <string name="hitman">Hitman :\nAgent Jun\n2020</string>
+    <string name="jumanji">Jumanji :\nThe Next Level</string>
+    <string name="digimon">Digimon Adventure :\nLast Evolution\nKizuna</string>
+    <string name="underwater">Underwater</string>
+    <string name="baba_yaga">Baba Yaga :\nTerror of the\nDark Forest</string>
+    <string name="fantasy_island">Fantasy Island</string>
+    <string name="onward">Onward</string>
+    <string name="the_old_guard">The Old Guard</string>
+    <string name="howling_village">Howling Village</string>
+    <string name="bloodshot">Bloodshot</string>
+    <string name="the_grudge">The Grudge</string>
+    <string name="black_water">Black Water :\nAbyss</string>
+    <string name="the_jack_in_the_box">The Jack In The Box</string>
+    <string name="scoob">Scoob!</string>
+    <string name="a_choo">A Choo</string>
+    <string name="demon_slayer_party">Demon Slayer Party</string>
+    <!--Coming Soon-->
+    <string name="unhinged">Unhinged</string>
+    <string name="mulan">Mulan\n2020</string>
+    <string name="greenland">Greenland\n2020</string>
+    <string name="tenet">Tenet</string>
+    <string name="antebellum">Antebellum</string>
+    <string name="monster_hunter">Monster Hunter</string>
+    <string name="the_conjuring_3">The Conjuring 3</string>
+    <string name="kingsman_3">Kingsman 3</string>
+    <string name="the_witches">The Witches\n2020</string>
+    <string name="candyman">Candyman 2020</string>
+    <string name="halloween_kills">Halloween Kills</string>
+    <string name="the_pale_door">The Pale Door</string>
+    <string name="godzilla_vs_kong">Godzilla vs. Kong</string>
+    <string name="classic_title">Classic</string>
+    <string name="classic_content">With class-leading digital projection and 7.1 premium surround sound, we can ensvure a satisfying experience throughout your movie in this hall. Furnished with congenial seats that provide ample legroom space, relaxation and comfort will have a new improved meaning for you.</string>
+    <string name="imax_content">Every IMAX® theatre is  custom-designed to deliver the ultimate audio and visual experience. Most standard screens are small so the most obvious difference is the  large IMAX® screens which span wall-to-wall and floor-to ceiling. The screen is not only wider and higher  but also curved as well bringing you closer to the screen.  This places you in the center of the action and creates an  immersive experience no matter where you\'re sitting.</string>
+    <string name="imax_title">IMAX</string>
+    <string name="deluxe_content">The Deluxe hall which debuted in Central i-City meets its forerunner on another level altogether. This hall  has everything you love about the Deluxe hall but with more comfort. Making sure you get only the best,  Deluxe+ really defines the phrase, “get seated and get  comfortable”.</string>
+    <string name="deluxe_title">DELUXE+</string>
+    <string name="title_now_showing">Now Showing</string>
+    <string name="title_coming_soon">Coming Soon</string>
+    <string name="title_popular">Popular</string>
+</resources>
