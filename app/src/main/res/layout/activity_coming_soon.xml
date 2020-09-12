@@ -24,7 +24,7 @@
             android:layout_width="40dp"
             android:layout_height="match_parent"
             android:background="#252525"
-            app:srcCompat="@drawable/back1"
+            android:onClick="back_comingSoon"
             tools:srcCompat="@drawable/back_button" />
 
         <TextView
@@ -76,7 +76,7 @@
             <!--Row 1-->
             <!--Column 1-->
             <RelativeLayout
-                android:id="@+id/CardView1"
+                android:id="@+id/RelativeLayout1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -92,18 +92,16 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView"
+                        android:id="@+id/movie_comingSoon1_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/unhinged" />
+                        android:layout_height="160dp" />
 
                     <TextView
-                        android:id="@+id/myhero"
+                        android:id="@+id/movie_comingSoon1_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#252525"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/unhinged"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -111,7 +109,7 @@
 
             <!--Column 2-->
             <RelativeLayout
-                android:id="@+id/CardView2"
+                android:id="@+id/RelativeLayout2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -125,25 +123,23 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/movie_comingSoon2_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/mulan" />
+                        android:layout_height="160dp" />
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/movie_comingSoon2_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/mulan"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white"/>
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
             </RelativeLayout>
 
             <!--Column 3-->
             <RelativeLayout
-                android:id="@+id/CardView3"
+                android:id="@+id/RelativeLayout3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -157,17 +153,15 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/movie_comingSoon3_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/greenland_2020" />
+                        android:layout_height="160dp" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/movie_comingSoon3_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/greenland"
                         android:textAlignment="center"
                         android:textColor="@android:color/white"
                         android:textSize="14sp" />
@@ -178,7 +172,7 @@
             <!--Row 2-->
             <!--Column 1-->
             <RelativeLayout
-                android:id="@+id/CardView4"
+                android:id="@+id/RelativeLayout4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -192,15 +186,15 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/movie_comingSoon4_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/tenet" />
+                        android:layout_height="160dp" />
 
                     <TextView
+                        android:id="@+id/movie_comingSoon4_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/tenet"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -208,7 +202,7 @@
 
             <!--Column 2-->
             <RelativeLayout
-                android:id="@+id/CardView5"
+                android:id="@+id/RelativeLayout5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -222,15 +216,15 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/movie_comingSoon5_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/antebellum" />
+                        android:layout_height="160dp" />
 
                     <TextView
+                        android:id="@+id/movie_comingSoon5_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/antebellum"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -238,7 +232,7 @@
 
             <!--Column 3-->
             <RelativeLayout
-                android:id="@+id/CardView6"
+                android:id="@+id/RelativeLayout6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -252,15 +246,15 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/movie_comingSoon6_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/monster_hunter" />
+                        android:layout_height="160dp" />
 
                     <TextView
+                        android:id="@+id/movie_comingSoon6_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/monster_hunter"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -269,7 +263,7 @@
             <!--Row 3-->
             <!--Column 1-->
             <RelativeLayout
-                android:id="@+id/CardView7"
+                android:id="@+id/RelativeLayout7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -283,15 +277,15 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/movie_comingSoon7_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/the_conjuring_3" />
+                        android:layout_height="160dp" />
 
                     <TextView
+                        android:id="@+id/movie_comingSoon7_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/the_conjuring_3"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -299,7 +293,7 @@
 
             <!--Column 2-->
             <RelativeLayout
-                android:id="@+id/CardView8"
+                android:id="@+id/RelativeLayout8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -313,15 +307,15 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/movie_comingSoon8_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/king_man_3" />
+                        android:layout_height="160dp" />
 
                     <TextView
+                        android:id="@+id/movie_comingSoon8_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/kingsman_3"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -329,7 +323,7 @@
 
             <!--Column 3-->
             <RelativeLayout
-                android:id="@+id/CardView9"
+                android:id="@+id/RelativeLayout9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -343,15 +337,15 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/movie_comingSoon9_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/the_witches_2020" />
+                        android:layout_height="160dp" />
 
                     <TextView
+                        android:id="@+id/movie_comingSoon9_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/the_witches"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -360,7 +354,7 @@
             <!--Row 4-->
             <!--Column 1-->
             <RelativeLayout
-                android:id="@+id/CardView10"
+                android:id="@+id/RelativeLayout10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -374,15 +368,15 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/movie_comingSoon10_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/candyman_2020" />
+                        android:layout_height="160dp" />
 
                     <TextView
+                        android:id="@+id/movie_comingSoon10_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/candyman"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -390,7 +384,7 @@
 
             <!--Column 2-->
             <RelativeLayout
-                android:id="@+id/CardView11"
+                android:id="@+id/RelativeLayout11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -404,17 +398,15 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ImageView11"
+                        android:id="@+id/movie_comingSoon11_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/halloween_kills" />
+                        android:layout_height="160dp" />
 
                     <TextView
-                        android:id="@+id/TextView11"
+                        android:id="@+id/movie_comingSoon11_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/halloween_kills"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -422,7 +414,7 @@
 
             <!--Column 3-->
             <RelativeLayout
-                android:id="@+id/CardView12"
+                android:id="@+id/RelativeLayout12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -436,16 +428,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ImageView12"
+                        android:id="@+id/movie_comingSoon12_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/the_pale_door" />
+                        android:layout_height="160dp" />
 
                     <TextView
-                        android:id="@+id/TextView12"
+                        android:id="@+id/movie_comingSoon12_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/the_pale_door"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -454,7 +444,7 @@
             <!--Row 5-->
             <!--Column 1-->
             <RelativeLayout
-                android:id="@+id/CardView13"
+                android:id="@+id/RelativeLayout13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -468,15 +458,15 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/movie_comingSoon13_image1"
                         android:layout_width="125dp"
-                        android:layout_height="160dp"
-                        app:srcCompat="@drawable/godzilla_vs__kong" />
+                        android:layout_height="160dp" />
 
                     <TextView
+                        android:id="@+id/movie_comingSoon13_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/goudy_bookletter_1911"
-                        android:text="@string/godzilla_vs_kong"
                         android:textAlignment="center"
                         android:textColor="@android:color/white" />
                 </LinearLayout>

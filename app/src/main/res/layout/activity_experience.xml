@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".experience">
+    tools:context=".Experience">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -33,27 +33,28 @@
                     android:padding="20dp">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/movie_experience1_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/classic_title"
+                        android:fontFamily="@font/goudy_bookletter_1911"
                         android:textAlignment="center"
-                        android:textSize="24sp"
                         android:textColor="@android:color/white"
-                        android:fontFamily="@font/goudy_bookletter_1911"/>
+                        android:textSize="24sp" />
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/movie_experience1_info1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/classic_content"
                         android:textColor="@android:color/white"
                         android:textSize="18sp" />
                 </LinearLayout>
             </RelativeLayout>
+
             <!-- IMAX -->
+
+
             <RelativeLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/imax">
@@ -65,24 +66,23 @@
                     android:padding="20dp">
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/movie_experience2_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/imax_title"
+                        android:fontFamily="@font/goudy_bookletter_1911"
                         android:textAlignment="center"
-                        android:textSize="24sp"
                         android:textColor="@android:color/white"
-                        android:fontFamily="@font/goudy_bookletter_1911"/>
+                        android:textSize="24sp" />
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/movie_experience2_info1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/imax_content"
                         android:textColor="@android:color/white"
                         android:textSize="16sp" />
                 </LinearLayout>
             </RelativeLayout>
+
             <!-- DELUXE+ -->
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -97,22 +97,20 @@
                     android:padding="20dp">
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/movie_experience3_title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/deluxe_title"
-                        android:textAlignment="center"
                         android:fontFamily="@font/goudy_bookletter_1911"
+                        android:textAlignment="center"
                         android:textColor="@android:color/white"
                         android:textSize="24sp" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/movie_experience3_info1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/deluxe_content"
-                        android:textSize="18sp"
-                        android:textColor="@android:color/white"/>
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
                 </LinearLayout>
             </RelativeLayout>
         </LinearLayout>
